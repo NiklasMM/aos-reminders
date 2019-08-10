@@ -10,6 +10,7 @@ import { factionNames, selections } from 'ducks'
 import { logPageView } from 'utils/analytics'
 import { TSupportedFaction } from 'meta/factions'
 import { AlliedArmies } from './input/ally_armies'
+import { QuoteApp } from './info/dnd'
 
 interface IAppProps {
   factionName: TSupportedFaction
@@ -34,6 +35,8 @@ const App = (props: IAppProps) => {
       <Toolbar />
 
       <Reminders />
+
+      <QuoteApp />
 
       <PrintFooterComponent />
       <FooterComponent />
