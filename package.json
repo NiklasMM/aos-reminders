@@ -8,6 +8,7 @@
     "is_js": "^0.9.0",
     "lodash": "^4.17.15",
     "react": "^16.8.6",
+    "react-beautiful-dnd": "^11.0.5",
     "react-copy-to-clipboard": "^5.0.1",
     "react-detect-print": "^0.0.2",
     "react-dom": "^16.8.6",
